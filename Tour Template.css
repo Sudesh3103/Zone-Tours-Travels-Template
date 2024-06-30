@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Section background Start  */
+
+.main-section{
+    height: 600px;
+    background-image: url(images/banner-1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.main-section h1{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 165px;
+}
+
+.main-section p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    font-style: italic;
+}
+
+.main-text{
+    color: orange
+}
+
+/* first Navbar Start  */
+
+.nav-bar{
+    background-color: brown;
+    height: 100px;
+    background: transparent;
+}
+
+.top-header{
+    background-color: #1A110C;
+    height: 40px;
+}
+
+.nav-icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 10px ;
+    opacity: 1;
+    padding-left: 60px;
+}
+
+.icon{
+    color: white;
+    text-align: center;
+}
+
+/* Second Header Navbar Start  */
+
+.header{
+    background-color: #1A110C;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-elements{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+/* Booking Section Start  */
+
+.booking{
+    display: flex;
+    justify-content: center;
+    margin: -70px 0px -70px 0px;
+}
+
+.booking-section{
+    background-color:#FFFFFF;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+
+.input-field{
+    width: 180px;
+    height: 40px;
+}
+
+.booknow-button{
+    width: 180px;
+    height: 40px;
+    background-color: #E8AA33;
+    color: white;
+    border-color: white;
+}
+
+/* Choose Us Section Start  */
+
+.choose-us-section{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choose{
+    height: 300px;
+    width: 30%;
+    text-align: center;
+}
+
+.choose-para {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+.shape{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.compass{
+    height: 150px;
+    width:150px ;
+    padding-bottom: 30px;
+}
+
+/* Video Section Start  */
+
+.video-section{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video{
+    height: 300px;
+    width: 40%;
+}
+
+.video-heading{
+    margin-top:20px ;
+}
+
+.video-para{
+    padding: 30px 0px 0px 0px;
+}
+
+.video-button{
+    background-color: #EAAC35;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Destination Section Start  */
+
+.destination-section{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destination{
+    width: 30%;
+    height: 400px;
+}
+
+.destination-img{
+    height:300px ;
+    width: 30%;
+}
+
+.destination-caption{
+    text-align: center;
+}
+
+.desti-para{
+    margin-top: 20px;
+}
+
+
+.background-location{
+    background-image: url(images/bg-famous-locations.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.famous-locations{
+    height: 600px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.location{
+    height: 600px;
+    width: 40%;
+}
+
+.location-img{
+    height: 600px;
+    width: 100%;
+}
+
+.location-info{
+    height: 600px;
+    width: 60%;
+    background-image: url(images/map1-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.location-para{
+    width: 80%;
+    color: white;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+
+.location-button{
+    background: transparent;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid orange;
+}
+
+/* Client Says Section Start  */
+
+.clientsays-section{
+    height: 390px;
+}
+
+.client-para{
+    height:100px ;
+}
+
+.client{
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.client-name{
+    color: orange;
+}
+
+.client-says{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-style: italic;
+}
+
+.client-image{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-image img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Exploring Section Start  */
+
+.exploring{
+    height: 400px;
+    background-image: url(images/bg-stuning-beachs.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.exploring-para{
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.exp-para{
+    padding: 25px;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Gallery Section Start  */
+
+.gallery{
+    height: 400px;
+    width: 100%;
+    background-color: #1A110C;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image{
+    height: 200px;
+    width: 24.8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1{
+    width: 100%;
+    height: 200px;
+}
+
+/* Latest News Section Start  */
+
+.latest-news{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news{
+    height: 500px;
+    width: 30%;
+    background-color: #F8F8F8;
+}
+
+.fig1 img{
+    height: 300px;
+    width: 100%;
+}
+
+.caption h2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.caption p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+/* Partners Section Start  */
+
+.partners-section-start{
+    height: 400px;
+}
+
+.partners-section{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.partner{
+    height: 90px;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.partner img{
+    height: 90px;
+    width: 100%;
+}
+
+.subscribe-section{
+    background-color: #F4B843;
+    height: 250px;
+    display: flex;
+}
+
+.subscribe{
+    height:200px ;
+    width: 50%;
+    padding: 80px 50px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+.subscribe input{
+    height: 50px;
+    width: 80%;
+    padding: 0px 20px;
+}
+
+.footer{
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/bg-footer.jpg);
+    background-size: cover;
+}
+
+.column1{
+    height: 300px;
+    width: 30%;
+}
+
+.column1 img{
+    padding-left: 20px;
+    height: 25px;
+}
+
+.column1 p{
+    margin-top: 60px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 25px;
+    text-align: cenetr;
+    padding-left: 20px;
+}
+
+.column2{
+    height: 300px;
+    width: 15%;
+}
+
+.column2 li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.column2 h3{
+    color: white;
+}
+
+.column4{
+    height: 300px;
+    width: 30%;
+}
+
+.column4 h3{
+    color: white;
+}
+
+.gallery-section{
+    height:200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.gallery-img{
+    height: 80px;
+    width: 24%;
+}
+.gallery-img img{
+    height: 80px;
+    width: 100%;
+}
